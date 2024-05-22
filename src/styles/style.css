@@ -15,7 +15,7 @@ body {
 
 #container {
     background-color: #f0f8ff;
-    width: 850px;
+    width: 950px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
@@ -39,11 +39,11 @@ body {
 }
 
 .tab-btn.active {
-    background-color: #c7d2fe;
+    background-color: #7ceb82;
 }
 
 .tab-btn:hover {
-    background-color: #a5b4fc;
+    background-color: #468349;
 }
 
 .content {
@@ -53,14 +53,21 @@ body {
 .content.show {
     display: flex;
     gap: 14px;
-    background-color: #c7d2fe;
+    background-color: #7ceb82;
     border-radius: 0px 0px 8px 8px;
-    padding: 16px;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .content-img {
-    width: 50%;
+    width: 35%;
     height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #container a{
