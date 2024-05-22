@@ -55,7 +55,7 @@ body {
     gap: 14px;
     background-color: #7ceb82;
     border-radius: 0px 0px 8px 8px;
-    padding: 50px;
+    padding: 20px 50px 50px 50px;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -70,6 +70,40 @@ body {
     justify-content: center;
 }
 
-#container a{
-    display: none;
+.content-description {
+    font-weight:bolder;
+}
+
+.content.show span {
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.content-title a ion-icon{
+    color: black;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    padding: 50px;
+}
+
+#banner-feijoada {
+    width: 100%;
+}
+
+#cardapio {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    gap: 8px;
+    height: 50%;
+}
+
+.infos ul {
+    list-style: none;
+    font-size: bold;
+    padding: 15px;
 }
