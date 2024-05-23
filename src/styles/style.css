@@ -86,7 +86,7 @@ body {
     height: 100px;
     justify-content: center;
     flex-direction: column;
-    padding: 0;
+    padding: 0;                                    
 }
 
 #banner-feijoada {
