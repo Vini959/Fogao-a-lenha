@@ -94,6 +94,8 @@ div .content-description {
     text-decoration: none;    
     font-style: normal;
     color: #000;
+    width: 100%;
+    max-width: 100%;
 }
 
 
