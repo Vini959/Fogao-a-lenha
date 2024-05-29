@@ -93,16 +93,20 @@ div .content-description {
     text-decoration: none;    
     font-style: normal;
     color: #000;
-
+    text-align: center;
     transition: background 0.5s;
-    width: 150px;
+    width: 200px;
+    background-color: #30A243;
+    height: 2000%;
+    border-radius: 9999px;
+
 }
 
 .content-description a:hover{
     text-decoration: none;    
     font-style: normal;
     color: #000;
-    width: 100%;
+    background-color: #338841;
 }
 
 
