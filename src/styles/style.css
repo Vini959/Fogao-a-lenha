@@ -60,6 +60,8 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    max-width: 100%;
+    width: 100%;
 }
 
 .content-img {
@@ -81,6 +83,12 @@ div .content-description {
     justify-content: center;
 }
 
+.content-description.marmitas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
 .content-description a{
     text-decoration: none;    
     font-style: normal;
@@ -95,7 +103,6 @@ div .content-description {
     font-style: normal;
     color: #000;
     width: 100%;
-    max-width: 100%;
 }
 
 
